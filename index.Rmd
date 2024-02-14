@@ -1,0 +1,56 @@
+---
+title: ""
+author: ""
+date: ""
+output: html_document
+---
+***
+<center>
+![](Y:/RHUL/PS2010_R/logo.png){width=30%}
+</center>
+
+## An Introduction to RStudio
+***
+### **Objectives**
+* To familiarise yourself with RStudio and understand what each panel does.
+* To set-up a project and create an R Script.
+
+*** 
+### **Introduction** --- R you Ready?
+Welcome to the world of R. Firstly, you'll need access to R. You can download R **and** R studio [here](https://posit.co/download/rstudio-desktop/). There are two steps to installation. 1. Install R and 2: Install RStudio. You must complete both steps.
+
+R and RStudio are not the same thing: 
+* **R** is a coding language primarily used for statistical computing and data visualisation, although it can do many different things! Think of R as a written language. Like any language we need somewhere to write it down...
+* **RStudio** is an R toolbox or workspace that provides a user interface for writing and running your R code.
+
+<details>
+  <summary> **Click to learn more** </summary>
+  <span style="color:blue;">Think of **R** code as like a recipe or a set of instructions to tell someone how to make a delicious       meal.
+  Whereas **RStudio** is your kitchen filled with all your tools and equipment that you can interact with. It allows you to         organise your ingredients (data), mix them together (writing and running code), and see the delicious and tasty results (view     outputs and plots).
+</details>
+
+#### **Why are you making us learn R?**
+Over the last decade, R has become the "go to" tool to help carry out data analysis in psychological research. R is free and open source and coding is a highly desirable and transferable skill. You don't need to become an advanced genius coder but having an understanding of how coding works to help you organise, analyse, and present data will be enough.
+There are lots of reasons to use R in psychological research and you can read about more [here](http://www.andywills.info/rminr/why-r-student.html)
+
+#### **RStudio**
+When you open RStudio you should see a window that looks like this:
+
+![](Y:/RHUL/PS2010_R/rstudio.jpg){width=80%}
+
+You will see three sections:
+
+1. The **console** is the largest panel on the left. This is where R will produce any written output for you to read and make sense of -- almost like a printer.
+
+2. The **environment** is the top right panel is where R keeps a list of any data you are working with- almost like R's memory.
+
+3. The **Files** panel on the bottom right does a few things, as it has a few different tabs. I'll talk through the most commonly used tabs:
+    + **Files** allows you to navigate to files on your computer, **plots** is an important one as it is where R produces any data visuals (e.g., graphs or formatted tables), and the **packages** tab helps you manage your packages.
+
+<details>
+  <summary> **Click to learn more** </summary>
+  <span style="color:blue;">What's a package? Think of a package as an "add on" or an "app" you can add into R. It is a toolbox with various functions to help you run different analyses. You need to install packages as and when you need them. More on this later...
+</details>
+
+***
+
